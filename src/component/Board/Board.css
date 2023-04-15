@@ -1,0 +1,6 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 100vh;
+    margin: 5% auto;
+}

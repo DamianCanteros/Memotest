@@ -1,0 +1,42 @@
+.button{
+  width: 160px;
+  margin: auto;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: 2em;
+  padding: 5px;
+  font-weight: bold;
+  background-color:  hsl(221, 67%, 51%);
+  cursor: pointer;
+}
+
+.Win {
+  width: 360px;
+  margin: auto;
+  color: hsl(0, 0%, 13%);
+  text-align: center;
+  font-size: 2em;
+  padding: 5px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 100%);;
+  border: 15px solid hsl(221, 67%, 51%);
+}
+.animation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  animation: grow 1s ease-in-out forwards;
+}
+
+@keyframes grow {
+  0% {
+    transform: translate(-50%, -50%) scale(0.1);
+  }
+  80% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+}
